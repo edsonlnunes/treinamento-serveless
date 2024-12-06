@@ -1,0 +1,28 @@
+{
+  "Records": [
+    {
+      "eventID": "b656996a194f295667c0b31f8af43a5b",
+      "eventName": "INSERT",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "us-east-1",
+      "dynamodb": {
+        "ApproximateCreationDateTime": 1733444913,
+        "Keys": {
+          "name": { "S": "Spider man" },
+          "id": { "S": "145f01ae-480a-4b7b-bc31-0d4feb20958e" }
+        },
+        "NewImage": {
+          "createdAt": { "S": "2024-12-06T00:28:33.183Z" },
+          "name": { "S": "Spider man" },
+          "id": { "S": "145f01ae-480a-4b7b-bc31-0d4feb20958e" },
+          "power": { "S": "Rich" }
+        },
+        "SequenceNumber": "100000000065886561551",
+        "SizeBytes": 146,
+        "StreamViewType": "NEW_AND_OLD_IMAGES"
+      },
+      "eventSourceARN": "arn:aws:dynamodb:us-east-1:341244262487:table/Heroes/stream/2024-12-06T00:26:56.705"
+    }
+  ]
+}
